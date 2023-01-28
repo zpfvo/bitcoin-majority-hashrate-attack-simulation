@@ -5,7 +5,7 @@ description = ""
 authors = ["zpfvo"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 pydantic = "^1.10.4"
 
 [tool.poetry.dev-dependencies]
