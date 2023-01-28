@@ -36,6 +36,7 @@ mypy-extensions = ">=0.4.3"
 pathspec = ">=0.9.0"
 platformdirs = ">=2"
 tomli = {version = ">=1.1.0", markers = "python_full_version < \"3.11.0a7\""}
+typing-extensions = {version = ">=3.10.0.0", markers = "python_version < \"3.10\""}
 
 [package.extras]
 colorama = ["colorama (>=0.4.3)"]
@@ -88,7 +89,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "pathspec"
-version = "0.10.3"
+version = "0.11.0"
 description = "Utility library for gitignore style pattern matching of file paths."
 category = "dev"
 optional = false
@@ -188,8 +189,8 @@ python-versions = ">=3.7"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.10"
-content-hash = "6e58819d1900127350d1128e406c941900652f45de09448f7cbcbd68e61f0a8d"
+python-versions = "^3.8"
+content-hash = "07112e56ea48eef925f1c5c5665c798701000f55ec52e467435a59dc9dbfac0d"
 
 [metadata.files]
 atomicwrites = []
