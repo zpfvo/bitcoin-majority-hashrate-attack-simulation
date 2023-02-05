@@ -19,7 +19,7 @@ Requirements & Installation
  - Requirement: poetry - for setting up the environment - https://python-poetry.org/
  - Installation:
    - Checkout source
-   - run `poetry install` in project folder.
+   - run `poetry update && poetry install` in project folder.
 
 
 Getting started
